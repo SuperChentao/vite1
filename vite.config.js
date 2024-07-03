@@ -5,7 +5,6 @@ import eslintPlugin from '@nabla/vite-plugin-eslint';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), eslintPlugin()],
-  base : "/vite1/",
   test: {
     globals: true,
     environment: 'jsdom',

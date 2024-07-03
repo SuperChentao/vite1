@@ -29,32 +29,32 @@ const HeaderComponent = () => {
   return (
     <div className="container">
       <header className="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-        <a href="/#" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <a href="/vite1/#" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
           <span className="fs-4">BanffNB666</span>
         </a>
 
         <ul className="nav nav-pills">
           <li className="nav-item">
-            <a href="/#" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+            <a href="/vite1/#" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
               {t('首页')}
             </a>
           </li>
           <li className="nav-item">
             <a
-              href="/#roomsFeatures"
+              href="/vite1/#roomsFeatures"
               className={location.pathname === "/roomsFeatures" ? "nav-link active" : "nav-link"}
             >
               {t('房间特征')}
             </a>
           </li>
           <li className="nav-item">
-            <a href="/#bookNow" className={location.pathname === "/bookNow" ? "nav-link active" : "nav-link"}>
+            <a href="/vite1/#bookNow" className={location.pathname === "/bookNow" ? "nav-link active" : "nav-link"}>
               Book Now
             </a>
           </li>
           <li className="nav-item">
             <a
-              href="/#sendUsAMessage"
+              href="/vite1/#sendUsAMessage"
               className={location.pathname === "/sendUsAMessage" ? "nav-link active" : "nav-link"}
             >
               Send us a message

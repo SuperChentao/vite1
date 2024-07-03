@@ -18,7 +18,7 @@ function MyVerticallyCenteredModal(props) {
       </Modal.Header>
       <Modal.Body>
         <video controls style={{width:'100%',aspectRatio: 16/9}} className="d-block">
-          <source src="/2.mp4" type="video/mp4"/>
+          <source src="/vite1/2.mp4" type="video/mp4"/>
           您的浏览器不支持 video 标签。
         </video>
       </Modal.Body>
@@ -41,7 +41,7 @@ const HomePage = () => {
           <p>First road 1<br/>Banff, KK oP7<br/>Canada</p>
         </div>
         <div className="row mx-1">
-          <div className="bg-light rounded-3 pb-5 pt-5 px-4" style={{ background: "url(/bg.jpg) no-repeat", backgroundSize: 'cover' }}>
+          <div className="bg-light rounded-3 pb-5 pt-5 px-4" style={{ background: "url(/vite1/bg.jpg) no-repeat", backgroundSize: 'cover' }}>
             <h5 className="pt-5 pb-5" style={{lineHeight: 1.6}}>
               BanffNB666 since 1675. Welcome to BanffNB666, your serene escape nestled in the heart of Banff
               NationaPark. Enjoy modern amenities, breathtaking mountain views, and exceptional service. Our luxurious

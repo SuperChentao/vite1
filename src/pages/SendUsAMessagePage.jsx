@@ -100,9 +100,9 @@ const SendUsAMessagePage = () => {
         className="bg-light p-3">
         <Toast show={showA} onClose={toggleShowA} delay={3000} autohide={true}>
           <Toast.Header>
-            <strong className="me-auto">提示</strong>
+            <strong className="me-auto">Notification</strong>
           </Toast.Header>
-          <Toast.Body>已经成功发送</Toast.Body>
+          <Toast.Body>Message has been sent</Toast.Body>
         </Toast>
       </ToastContainer>
     </div>

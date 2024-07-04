@@ -7,17 +7,17 @@ import i18n from '../i18n'; // 导入i18n配置
 const HeaderComponent = () => {
   const location = useLocation();
   const [lang, setLang] = useState({
-    lang: 'zh',
-    label: '中文'
+    lang: 'en',
+    label: 'English'
   });
   const [langList] = useState([
     {
-      lang: 'zh',
-      label: '中文'
-    },
-    {
       lang: 'en',
       label: 'English'
+    },
+    {
+      lang: 'zh',
+      label: '中文'
     }
   ])
   const toggleLang = (lang) => {
@@ -61,13 +61,13 @@ const HeaderComponent = () => {
             </a>
           </li>
         </ul>
-        <DropdownButton style={{marginLeft: '16px'}} title={lang.label}>
+        {/* <DropdownButton style={{marginLeft: '16px'}} title={lang.label}>
           {
             langList.map((item, index) => {
               return <Dropdown.Item key={index} onClick={ ()=>{toggleLang(item)} }>{item.label}</Dropdown.Item>
             })
           }
-        </DropdownButton>
+        </DropdownButton> */}
       </header>
     </div>
   );
@@ -86,8 +86,16 @@ const FooterComponent = () => {
             <p className="mb-0">Monday - 10am-3pm (alternating)</p>
             <p className="mb-0">Sunday - ClOSED</p>
           </div>
-          <div className="col-md-7">
-            <img src="/1.jpg" style={{width:'300px', height: '200px', background: '#f5f5f5'}} className="rounded float-end img-fluid" alt="..."></img>
+          <div className="col-md-5 text-end">
+            {/* <img src="map.png" style={{width:'300px', height: '200px', background: '#f5f5f5'}} className="rounded float-end img-fluid" alt="..."></img> */}
+            <iframe
+              className="map-iframe"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345094763!2d144.9537363153166!3d-37.8172099797517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5774bcd91fd8d0!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1593077428424!5m2!1sen!2sau"
+              allowfullscreen=""
+              loading="lazy"
+              aria-hidden="false"
+              tabindex="0">
+            </iframe>
           </div>
         </div>
       </footer>

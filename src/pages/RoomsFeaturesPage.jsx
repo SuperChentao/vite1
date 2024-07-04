@@ -99,9 +99,9 @@ const RoomsFeaturesPage = () => {
     setCount(count)
   }
   const [roomList, setRoomList] = useState([
-    { name: 'Room type 1', people: 1, price: 200, desc: '2 queen beds, 1 sofa, 1 kitchen, 1 washroom', imgs: ['/1.jpg', '/1.jpg'], isShow: true },
-    { name: 'Room type 2', people: 2, price: 300, desc: '2 queen beds, 1 sofa, 1 kitchen, 1 washroom', imgs: ['/1.jpg', '/1.jpg'], isShow: true },
-    { name: 'Room type 3', people: 3, price: 500, desc: '2 queen beds, 1 sofa, 1 kitchen, 1 washroom', imgs: ['/1.jpg', '/1.jpg'], isShow: true },
+    { name: 'Room type 1', people: 1, price: 200, desc: '2 queen beds, 1 sofa, 1 kitchen, 1 washroom', imgs: ['/vite1/room1.jpg', '/vite1/room2.jpg'], isShow: true },
+    { name: 'Room type 2', people: 2, price: 300, desc: '2 queen beds, 1 sofa, 1 kitchen, 1 washroom', imgs: ['/vite1/room3.jpg', '/vite1/room4.jpg'], isShow: true },
+    { name: 'Room type 3', people: 3, price: 500, desc: '2 queen beds, 1 sofa, 1 kitchen, 1 washroom', imgs: ['/vite1/room6.jpg', '/vite1/room5.jpg'], isShow: true },
   ])
   return (
     <>

@@ -17,6 +17,7 @@
     "format": "prettier --plugin-search-dir . --write ."
   },
   "dependencies": {
+    "@react-google-maps/api": "^2.19.3",
     "bootstrap": "^5.3.3",
     "i18next": "^23.11.5",
     "react": "^18.3.1",

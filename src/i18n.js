@@ -18,7 +18,7 @@ const resources = {
 i18n.use(initReactI18next) // 使用react-i18next
   .init({
     resources,
-    lng: 'zh', // 默认语言
+    lng: 'en', // 默认语言
     keySeparator: false, //  we do not use keys in form messages.welcome
     interpolation: {
       escapeValue: false // react already safes from xss
